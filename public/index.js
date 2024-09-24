@@ -1,7 +1,6 @@
 import * as THREE from "three";
 import { EffectComposer, RenderPass, UnrealBloomPass, OrbitControls } from "three/examples/jsm/Addons.js";
 
-console.log('test')
 //global declaration
 let scene;
 let camera;
@@ -66,7 +65,7 @@ const starGeometry = new THREE.SphereGeometry(80, 64, 64);
 // galaxy material
 const textureLoader = new THREE.TextureLoader();
 const starMaterial = new THREE.MeshBasicMaterial({
-  map: textureLoader.load("texture/galaxy1.png"),  // Carregar a textura com TextureLoader
+  map: textureLoader.load("/texture/galaxy1.png"), 
   side: THREE.BackSide,
   transparent: true,
 });
