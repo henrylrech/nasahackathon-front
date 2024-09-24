@@ -1,0 +1,12 @@
+{
+  "name": "nasahack-front",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "three": "^0.167.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.7"
+  }
+}
